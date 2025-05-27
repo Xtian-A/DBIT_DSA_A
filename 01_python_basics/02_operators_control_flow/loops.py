@@ -11,7 +11,9 @@ for name in names:
     print(name)
 
 
-# range
+# range  -can be used to generate numbers 
+for i in range(2,5):#indicate the starting and stopping point. or just (5) for last value
+    print(i)
 
 """ doc string
 for i in range(11):
