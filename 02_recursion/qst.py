@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 print("hello world")
 #def new__func():
 #    new_func() #function calling itself. has no base case and stops with recursion error or stack upto 1000.
@@ -52,3 +53,15 @@ def binary(n):
 #typically use recursion for binary search 
 
 binary(1_000_000_000)
+=======
+def new_func(n):
+    # new_func(n)
+    if n == 0:
+        # print("Stop")
+        return 0
+    else:
+        print(f"Value of n is {n}")
+        new_func(n - 1)  # function calling itself 
+    
+new_func(5)
+>>>>>>> 3e6d2e96315ea3893c9c59ebe125def4ca12ee42
