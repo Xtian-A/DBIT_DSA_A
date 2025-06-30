@@ -1,6 +1,5 @@
 def main(): #def + function name. below statements belong to function. 
     print("Inside a function")
-<<<<<<< HEAD
     print("Inside a function 1234")
     num = 13
     num2 = 78
@@ -9,17 +8,6 @@ def main(): #def + function name. below statements belong to function.
 
 
 print("Not inside function")#this doesnot belong to the function since begins the beginning line before indentation. without the tab  
-=======
-    num = 13
-    num2 = 78
-    if num > num2:
-        print("num")
-
-def getSum():
-    print("")
-
-print("Inside a function 1234")
->>>>>>> 9a61724a87e3aef92f1bda0929d046390a7041ca
 
 
 if __name__ == "__main__":
